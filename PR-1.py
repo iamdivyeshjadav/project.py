@@ -1,4 +1,4 @@
-print("welcome to the interactive personal data collector! ")
+print("welcome to the interactive personal data collector! ","\n")
 name = input("Please enter your name: ")
 age = int(input("Please enter your age: "))
 height = float(input("Please enter your height in cm: "))
@@ -8,7 +8,7 @@ favorite_number = input("Please enter your favorite number: ")
 favorite_food = input("Please enter your favorite food: ")
 favorite_ipl_team = input("Please enter your favorite IPL team: ")
 hobbies = input("Please enter your hobbies : ")
-print("Thank you for providing your information! Here is what we have collected:")
+print("Thank you for providing your information! Here is what we have collected:","\n")
 print("Name: ", name,"type: ", type(name), "memory address: ", id(name))
 print("Age: ", age,"type: ", type(age), "memory address: ", id(age))
 print("Height: ", height, "cm", "type: ", type(height), "memory address: ", id(height))
@@ -19,7 +19,7 @@ print("Favorite Food: ", favorite_food,"type: ", type(favorite_food), "memory ad
 print("Hobbies: ", hobbies,"type: ", type(hobbies), "memory address: ", id(hobbies))
 print("Favorite IPL Team: ", favorite_ipl_team,"type: ", type(favorite_ipl_team), "memory address: ", id(favorite_ipl_team))
 print("Your birth year is: ", 2025 - int(age)," based on your agre of ", age)
-print("thank you for using the interactive personal data collector! Have a great day!")
+print("thank you for using the interactive personal data collector! Have a great day!","\n")
 '''
 output:
 welcome to the interactive personal data collector! 
